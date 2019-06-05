@@ -1,0 +1,10 @@
+ALTER TABLE OUVRAGES MODIFY titOuv varchar(85);
+-- Vérification avec : DESC OUVRAGES --
+-- + verification DESC EXEMPLAIRES --
+
+ALTER TABLE PRET ADD(dateRet date);
+UPDATE PRET set dateRet=sysdate+20
+-- Par défaut un livre devra être rendu 20 jours après qu'il ait été emprunté
+
+ALTER TABLE PERSONNES ADD(mtCotis number(2));
+UPDATE PERSONNES set mtCotis=20 WHERE ...

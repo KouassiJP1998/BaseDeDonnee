@@ -1,0 +1,6 @@
+desc EXEMPLAIRES;
+desc PERSONNES;
+desc BIBLIOTHEQUES;
+desc OUVRAGES;
+desc PRET;
+desc PRESENT;

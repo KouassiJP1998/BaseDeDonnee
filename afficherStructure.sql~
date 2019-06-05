@@ -1,0 +1,6 @@
+describe PRET;
+describe PRESENT;
+describe EXEMPLAIRES;
+describe PERSONNES;
+describe BIBLIOTHEQUES;
+describe OUVRAGES;
